@@ -21,15 +21,14 @@ body {
 
 /* En tête */
 
-.header1 {
+.header_container {
         background-color: rgba(165, 151, 128, 0.613);
         color: white;
         display: flex;
         justify-content: space-between;
-
         align-items: center;
 }
-.header1 img {
+.header img {
         margin-left: 90px;
 }
 .header .presentation {
@@ -45,7 +44,10 @@ body {
         font-size: 2rem;
 }
 .header .presentation p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+}
+#permis {
+        font-size: 1.6rem;
 }
 
 /*  Cenral */
@@ -67,24 +69,26 @@ span {
 }
 
 /*  Central gauche */
-
-.div1 {
+.central_gauche {
+        padding: 10px;
+}
+.email {
         display: flex;
         justify-content: flex-start;
         align-items: center;
 }
-.div1 h2 {
+.email h2 {
         margin-left: 10px;
 }
-.div1 img {
+.email img {
         display: block;
 }
-.div2 {
+.phone {
         display: flex;
         justify-content: flex-start;
         align-items: center;
 }
-.div2 h2 {
+.phone h2 {
         margin-left: 10px;
 }
 
@@ -92,7 +96,7 @@ span {
 .central_droit {
         background-color: rgba(227, 201, 163, 0.436);
         width: 1000px;
-        padding: 0 50px;
+        padding: 10px 50px;
 }
 
 li {
